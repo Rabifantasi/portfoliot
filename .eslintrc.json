@@ -1,3 +1,7 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "no-console": "off", // Disable warnings for console.log statements
+    "@next/next/no-html-link-for-pages": "off" // Disable specific Next.js rule
+  }
 }
